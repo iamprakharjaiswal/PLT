@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gauravpc.plt.SyntaxTree"
+    tools:showIn="@layout/activity_syntax_tree">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Syntax Tree"
+                android:textColor="#303F9F"
+                android:textSize="30dp"
+                android:visibility="visible"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/syntaxTreeText"
+                android:textSize="12dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back To Main Page"
+                android:gravity="center"
+                android:id="@+id/backButton"
+                android:textColor="#fff"
+                android:background="#303F9F"
+                android:layout_below="@+id/syntaxTreeText"
+
+                android:layout_marginTop="100dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="10dp"
+                android:textColor="#303F9F"
+                android:id="@+id/code"
+                android:text="code"
+
+                android:layout_below="@+id/backButton"
+                android:layout_marginTop="50dp"/>
+
+        </RelativeLayout>
+        </ScrollView>
+
+</RelativeLayout>

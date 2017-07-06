@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303F9F"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gauravpc.plt.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/logo1"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developed By : "
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:layout_marginTop="100dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14BCE0248   Gaurav Sharma"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:layout_marginTop="150dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14BCE0258   Prakhar Jaiswal"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:layout_marginTop="180dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CSE309 Programming Language Translator"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:layout_marginTop="250dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C2+TC2+TCC2"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:layout_marginTop="280dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dr. Anand M."
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:id="@+id/last"
+            android:layout_marginTop="320dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/last"
+            android:layout_margin="30dp"
+            android:background="#40000000"
+            android:textColor="#fff"
+            android:id="@+id/processButton"
+            android:text="Proceed" />
+    </RelativeLayout>
+
+</RelativeLayout>
